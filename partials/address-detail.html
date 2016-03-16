@@ -1,0 +1,35 @@
+<div class="container">
+  <a  class="button"  href="#/">Back</a><br/>
+
+  </br></br>
+
+  <p class="textBig">Edit address</p>
+
+  <div class="row">
+    <form>
+      <label for="firstname" class="labelForm">First Name</label>
+      <input id="firstname" type="text" name="firstname" placeholder="First Name" value="{{detail.firstname}}" required/></br>
+      
+      <label for="lastname" class="labelForm">Last Name</label>
+      <input id="lastname" type="text" name="lastname" placeholder="Last Name" value="{{detail.lastname}}" required/></br>
+
+      <label for="street" class="labelForm">Address</label>
+      <input id="address" type="text" name="address" placeholder="Address" value="{{detail.street}}" required/></br>
+
+      <label for="zip" class="labelForm">Postal Code</label>
+      <input id="zip" type="text" name="zip" placeholder="Postal Code" value="{{detail.zip}}" required/></br>
+
+      <label for="city" class="labelForm">City</label>
+      <input id="city" type="text" name="city" placeholder="City" value="{{detail.city}}" required/></br>
+
+      <label for="country" class="labelForm">Country</label>
+      <input id="country" type="text" name="country" placeholder="Country" value="{{detail.country}}" required/></br>
+    </form>
+
+    </br>
+
+    <div class="buttons">
+      <a role="button" class="button" ng-click="editAddress()">Save</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+{ 
+    "1": {
+        "id" : "123",
+        "firstname" : "Georgian-Sorin",
+        "lastname" : "Maxim",
+        "street" : "Paludan Mulles Vej 85",
+        "zip": "8210",
+        "city": "Aarhus",
+        "country": "Denmark"
+    },
+    "2": {
+        "id" : "1255",
+        "firstname" : "John",
+        "lastname" : "Doe",
+        "street" : "Aboulevarden 25, 1 tv",
+        "zip": "8000",
+        "city": "Aarhus",
+        "country": "Denmark"
+    },
+    "3": {
+        "id" : "12353",
+        "firstname" : "Jane",
+        "lastname" : "House",
+        "street" : "Stewart House 32",
+        "zip": "WC1B 5DN",
+        "city": "London",
+        "country": "United Kingdom"
+    },
+    "4": {
+        "id" : "12123",
+        "firstname" : "Sherlock",
+        "lastname" : "Wilson",
+        "street" : "Abcdef 85",
+        "zip": "WC1E 7HU",
+        "city": "London",
+        "country": "United Kingdom"
+    },
+    "5": {
+        "id" : "133223",
+        "firstname" : "David",
+        "lastname" : "Beckham",        
+        "street" : "Old Trafford 7",
+        "zip": "MU 7",
+        "city": "Manchester",
+        "country": "United Kingdom"
+    },
+    "6": {
+        "id" : "12543253453",
+        "firstname" : "Christian",
+        "lastname" : "Vieri",       
+        "street" : "Chelsea Lane",
+        "zip": "CH1E 8US",
+        "city": "London",
+        "country": "United Kingdom"
+    },
+    "7": {
+        "id" : "76543",
+        "firstname" : "Lars",
+        "lastname" : "Laursen",          
+        "street" : "6th Avenue",
+        "zip": "1000",
+        "city": "New York",
+        "country": "United States of America"
+      },
+    "8": {
+        "id" : "12123213",
+        "firstname" : "Miranda",
+        "lastname" : "Kerr",  
+        "street" : "5th Avenue",
+        "zip": "1000",
+        "city": "New York",
+        "country": "United States of America"
+    }
+}

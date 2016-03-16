@@ -1,0 +1,37 @@
+<div class="container">
+  <a  class="button"  href="#/">Back</a><br/>
+
+  </br></br>
+
+  <p class="textBig">Add address</p>
+  <p class="textSmall">For each person in your address book, we'll help you to keep track of how many postcards you send, and how often.</p>
+
+  <div class="row">
+      <form> 
+        <label for="firstname" class="labelForm">First Name</label>
+        <input type="text" id="firstname" name="firstname" data-ng-model="firstname" placeholder="First Name" ng-required/></br>
+
+        <label for="lastname" class="labelForm">Last Name</label>
+        <input type="text" id="lastname" name="lastname" data-ng-model="lastname" placeholder="Last Name" required/></br>
+
+        <label for="street" class="labelForm">Address</label>
+        <input type="text" id="street" name="street" data-ng-model="street" placeholder="Address" required/></br>
+
+        <label for="zip" class="labelForm">Postal Code</label>
+        <input type="text" id="zip" name="zip" data-ng-model="zip" placeholder="Postal Code" required/></br>
+
+        <label for="city" class="labelForm">City</label>
+        <input type="text" id="city" name="city" data-ng-model="city" placeholder="City" required/></br>
+
+        <label for="country" class="labelForm">Country</label>
+        <input type="text" id="country" name="country"  data-ng-model="country" placeholder="Country" required/></br>
+      </form>
+
+      </br>
+
+      <div class="buttons">
+        <a role="button" class="cancel" ng-click="clear()">Cancel</a>
+        <a class="button" href="#" ng-click="addAddress()">Create</a>
+      </div>
+  </div>
+</div>

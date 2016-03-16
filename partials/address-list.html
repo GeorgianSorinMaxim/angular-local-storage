@@ -1,0 +1,24 @@
+<div class="container">
+  <p class="textBig">Decide who to send your card to</p>
+  <p class="textSmall">Select who to send your card to or add new address</p>
+  <a class="button" href="#/add">Add new address</a>
+
+  </br></br>
+
+  <div class="containerAddresses">
+    <div class="row">
+      <div class="col-md-6" id="itemBackground" ng-repeat="address in addresses | orderBy: 'firstname' track by $index" ng-hide="address == 'empty' || !address"> 
+        <div class="row">
+          <div class="col-lg-6">
+            <span class="name">{{address.firstname}} {{address.lastname}}</span>
+          </div>
+          <div class="col-lg-6">
+            <a class="edit" href="#/address/{{address.id}}" class="edit">Edit</a>
+            <a class="delete" href="#" ng-click="deleteAddress(address.id)" class="delete">Delete</a>
+          </div>
+        </div>
+        <span class="address">{{address.street}}, {{address.zip}}, {{address.city}}</span>
+      </div>
+    </div>
+  </div>
+<div>
